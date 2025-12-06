@@ -11,28 +11,34 @@
 - 支持递归遍历所有子目录（可选）
 
 ## 安装
-1. 安装依赖
+
+### 方式一：使用 pip 安装（推荐）
+```powershell
+# 克隆仓库后，在项目根目录执行
+pip install -e .
+
+# 或直接从 GitHub 安装（如果已推送）
+pip install git+https://github.com/yourusername/zimu.git
 ```
-requests
-beautifulsoup4
-lxml
-guessit
-tenacity
-tqdm
+
+### 方式二：手动安装依赖
+```powershell
+pip install requests beautifulsoup4 lxml guessit tenacity tqdm
 ```
 
 ## 使用
-在有媒体文件的目录执行：
+
+安装后，可在任意目录下直接执行 `zimu` 命令：
 
 ```powershell
 # 仅当前目录，模拟运行
-python .\zimu.py --dry-run
+zimu --dry-run
 # 仅当前目录，指定参数
-python .\zimu.py --max-pages 2 --prefer-format ass --rate-limit 1.5
+zimu --max-pages 2 --prefer-format ass --rate-limit 1.5
 # 递归遍历所有子目录
-python .\zimu.py --recursive
+zimu --recursive
 # 或使用短选项
-python .\zimu.py -r
+zimu -r
 ```
 
 常用参数：
