@@ -1,0 +1,107 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run dry-run to verify CLI",
+			"type": "shell",
+			"command": "C:/Users/cmm82/AppData/Local/Programs/Python/Python313/python.exe",
+			"args": [
+				"zimu.py",
+				"--dry-run",
+				"--verbose"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run dry-run to verify CLI",
+			"type": "shell",
+			"command": "C:/Users/cmm82/AppData/Local/Programs/Python/Python313/python.exe",
+			"args": [
+				"zimu.py",
+				"--dry-run",
+				"--verbose"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run query debug",
+			"type": "shell",
+			"command": "C:/Users/cmm82/AppData/Local/Programs/Python/Python313/python.exe",
+			"args": [
+				"zimu.py",
+				"--max-pages",
+				"2",
+				"--prefer-format",
+				"ass",
+				"--rate-limit",
+				"1.5"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run query debug after enhancements",
+			"type": "shell",
+			"command": "C:/Users/cmm82/AppData/Local/Programs/Python/Python313/python.exe",
+			"args": [
+				"zimu.py",
+				"--max-pages",
+				"2",
+				"--prefer-format",
+				"ass",
+				"--rate-limit",
+				"1.5",
+				"--verbose"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run enhanced debug",
+			"type": "shell",
+			"command": "C:/Users/cmm82/AppData/Local/Programs/Python/Python313/python.exe",
+			"args": [
+				"zimu.py",
+				"--max-pages",
+				"1",
+				"--prefer-format",
+				"ass",
+				"--rate-limit",
+				"1.5",
+				"--verbose"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run with advanced headers",
+			"type": "shell",
+			"command": "C:/Users/cmm82/AppData/Local/Programs/Python/Python313/python.exe",
+			"args": [
+				"zimu.py",
+				"--max-pages",
+				"1",
+				"--prefer-format",
+				"ass",
+				"--rate-limit",
+				"1.5",
+				"--verbose"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run after parser enhancements",
+			"type": "shell",
+			"command": "C:/Users/cmm82/AppData/Local/Programs/Python/Python313/python.exe",
+			"args": [
+				"zimu.py",
+				"--max-pages",
+				"1",
+				"--prefer-format",
+				"ass",
+				"--rate-limit",
+				"1.5",
+				"--verbose",
+				"--dry-run"
+			],
+			"isBackground": false
+		}
+	]
+}

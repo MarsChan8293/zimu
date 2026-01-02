@@ -1,0 +1,2 @@
+[console_scripts]
+zimu = cli:main
